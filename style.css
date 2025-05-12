@@ -1,0 +1,9 @@
+/* enable smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* offset for fixed header */
+body {
+  scroll-padding-top: 4rem; /* same as header height */
+}
