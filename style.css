@@ -33,14 +33,6 @@ button:hover {
   box-shadow: 0 0 20px 4px rgba(59, 130, 246, 0.6) !important;
 }
 
-/* Clean vertical timeline without dots */
-.timeline-container {
-  position: relative;
-  border-left: 3px solid #3B82F6;
-  margin-left: 1.25rem;
-  padding-left: 1.5rem;
-}
-
 .timeline-entry {
   position: relative;
   margin-bottom: 2.5rem;
