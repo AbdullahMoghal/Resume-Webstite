@@ -80,17 +80,3 @@ a:hover, button:hover {
 }
 
 
-/* Horizontal branch connecting dot to card */
-.timeline-entry::after {
-  content: '';
-  position: absolute;
-  top: 1.8rem;
-  left: -1.75rem;
-  width: 1.25rem;
-  height: 3px;
-  background-color: #3B82F6;
-  z-index: 5;
-}
-
-
-
