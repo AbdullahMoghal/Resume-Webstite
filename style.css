@@ -58,25 +58,5 @@ a:hover, button:hover {
   transition: all 0.3s ease-in-out;
 }
 
-/* Vertical timeline container */
-.timeline-container {
-  position: relative;
-  border-left: 3px solid #D1D5DB; /* light gray, Tailwind's gray-300 */
-  margin-left: 1.25rem; /* similar to pl-5 */
-  padding-left: 1.5rem;
-}
-
-/* Clean vertical timeline with branches */
-.timeline-container {
-  position: relative;
-  border-left: 3px solid #3B82F6; /* Tailwind blue-500 */
-  margin-left: 1.25rem;
-  padding-left: 1.5rem;
-}
-
-.timeline-entry {
-  position: relative;
-  margin-bottom: 2.5rem;
-}
 
 
