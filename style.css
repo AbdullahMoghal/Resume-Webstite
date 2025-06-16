@@ -46,4 +46,8 @@ button:hover {
   margin-bottom: 2.5rem;
 }
 
+.timeline-entry {
+  position: relative;
+  margin-bottom: 2.75rem; /* slightly increased spacing to match project card flow */
+}
 
