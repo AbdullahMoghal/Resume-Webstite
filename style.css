@@ -40,3 +40,14 @@ a:hover, button:hover {
   box-shadow: 0 0 6px rgba(59, 130, 246, 0.6);
 }
 
+/* Permanent blue glow under project cards */
+.project-card {
+  box-shadow: 0 8px 20px rgba(59, 130, 246, 0.2); /* Subtle blue glow */
+  border: 1px solid rgba(59, 130, 246, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(59, 130, 246, 0.3);
+}
