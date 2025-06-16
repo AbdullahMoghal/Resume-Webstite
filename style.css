@@ -7,3 +7,36 @@ html {
 body {
   scroll-padding-top: 4rem; /* same as header height */
 }
+
+/* Blue glow effect on hover */
+a:hover, button:hover {
+  text-shadow: 0 0 8px rgba(59, 130, 246, 0.8); /* Tailwind's blue-500 */
+  box-shadow: 0 0 12px rgba(59, 130, 246, 0.6);
+  transition: all 0.3s ease;
+}
+
+/* Timeline vertical line style */
+#experience .timeline-container {
+  position: relative;
+  border-left: 4px solid #3B82F6; /* Tailwind blue-500 */
+  padding-left: 1.5rem; /* Same as pl-6 */
+}
+
+#experience .timeline-entry {
+  position: relative;
+  padding-bottom: 2rem;
+}
+
+/* Optional: add a circle indicator for each entry */
+#experience .timeline-entry::before {
+  content: '';
+  position: absolute;
+  top: 0.3rem;
+  left: -0.95rem;
+  width: 0.75rem;
+  height: 0.75rem;
+  background-color: #3B82F6;
+  border-radius: 50%;
+  box-shadow: 0 0 6px rgba(59, 130, 246, 0.6);
+}
+
