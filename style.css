@@ -1,29 +1,24 @@
-/* enable smooth scrolling */
+/* Enable smooth scrolling */
 html {
   scroll-behavior: smooth;
 }
 
-/* offset for fixed header */
+/* Offset for fixed header */
 body {
-  scroll-padding-top: 4rem; /* same as header height */
+  scroll-padding-top: 4rem;
 }
 
-/* Blue glow effect on hover */
-a:hover, button:hover {
-  text-shadow: 0 0 8px rgba(59, 130, 246, 0.8); /* Tailwind's blue-500 */
+/* Blue glow effect on hover for links and buttons */
+a:hover,
+button:hover {
+  text-shadow: 0 0 8px rgba(59, 130, 246, 0.8);
   box-shadow: 0 0 12px rgba(59, 130, 246, 0.6);
   transition: all 0.3s ease;
 }
 
-
-#experience .timeline-entry {
-  position: relative;
-  padding-bottom: 2rem;
-}
-
-/* Permanent blue glow under project cards */
+/* Permanent blue glow on project and experience cards */
 .project-card {
-  box-shadow: 0 8px 20px rgba(59, 130, 246, 0.2); /* Subtle blue glow */
+  box-shadow: 0 8px 20px rgba(59, 130, 246, 0.2);
   border: 1px solid rgba(59, 130, 246, 0.15);
   transition: transform 0.3s ease;
 }
@@ -33,11 +28,22 @@ a:hover, button:hover {
   box-shadow: 0 10px 25px rgba(59, 130, 246, 0.3);
 }
 
-/* Blue glow around home section profile image */
-.profile-glow {
-  box-shadow: 0 0 20px rgba(59, 130, 246, 0.5); /* blue-500 glow */
-  transition: all 0.3s ease-in-out;
+/* Blue glow around profile image */
+.glow-blue {
+  box-shadow: 0 0 20px 4px rgba(59, 130, 246, 0.6) !important;
 }
 
+/* Clean vertical timeline without dots */
+.timeline-container {
+  position: relative;
+  border-left: 3px solid #3B82F6;
+  margin-left: 1.25rem;
+  padding-left: 1.5rem;
+}
+
+.timeline-entry {
+  position: relative;
+  margin-bottom: 2.5rem;
+}
 
 
